@@ -21,6 +21,12 @@
        from: process.env.EMAIL_FROM,
      }),
    ],
+   theme: {
+  colorScheme: "dark", // "auto" | "dark" | "light"
+  brandColor: "#914cd2", // Hex color code
+  logo: "https://next-auth.js.org/img/logo/logo-sm.png", // Absolute URL to image
+  buttonText: "#d3d9ea" // Hex color code
+},
  };
 
  const handler = NextAuth(authOptions);
