@@ -1,10 +1,10 @@
 import { signIn } from "next-auth/react";
+import { Button } from "@/components/ui/button";
 
 export default function SignInButton() {
   return (
     <>
-      {/* Not signed in <br /> */}
-      <button onClick={() => signIn()}>Sign in</button>
+      <Button onClick={() => signIn()}>Sign in</Button>
     </>
   );
 }
