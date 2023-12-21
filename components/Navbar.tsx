@@ -22,7 +22,7 @@ export default function Navbar() {
           <NavigationMenuLink href="/">Home</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem className="hover:scale-110 rounded hover:bg-slate-700 hover:bg-opacity-50 py-2 px-6">
-          <NavigationMenuLink href="/">About</NavigationMenuLink>
+          <NavigationMenuLink href="/about">About</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem className="hover:scale-110 rounded hover:bg-slate-700 hover:bg-opacity-50 py-2 px-6">
           <NavigationMenuLink href="/">Blog</NavigationMenuLink>
