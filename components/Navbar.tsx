@@ -25,15 +25,15 @@ export default function Navbar() {
           <NavigationMenuLink href="/about">About</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem className="hover:scale-110 rounded hover:bg-slate-700 hover:bg-opacity-50 py-2 px-6">
-          <NavigationMenuLink href="/">Blog</NavigationMenuLink>
+          <NavigationMenuLink href="/blog">Blog</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem className="hover:scale-110 rounded hover:bg-slate-700 hover:bg-opacity-50 py-2 px-6">
           <NavigationMenuLink href="/">Contact</NavigationMenuLink>
         </NavigationMenuItem>
-        <NavigationMenuItem className="fixed top-2 right-20 border rounded w-max hover:scale-110 hover:bg-slate-700 hover:bg-opacity-50">
+        <NavigationMenuItem className="sticky top-2 right-20 border rounded w-max hover:scale-110 hover:bg-slate-700 hover:bg-opacity-50">
           {session ? <SignOutButton /> : <SignInButton />}
         </NavigationMenuItem>
-        <NavigationMenuItem className="fixed right-2 top-2 hover:scale-110 hover:bg-slate-700 hover:bg-opacity-50">
+        <NavigationMenuItem className="sticky right-2 top-2 hover:scale-110 hover:bg-slate-700 hover:bg-opacity-50">
           <ModeToggle />
         </NavigationMenuItem>
       </NavigationMenuList>
